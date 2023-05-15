@@ -45,6 +45,7 @@ export default function Caracters() {
           renderItem={({ item }) => <List data={item} />}
           showsVerticalScrollIndicator={false}
           numColumns={2}
+          showsHorizontalScrollIndicator={false}
         />
       </View>
     </SafeAreaView>

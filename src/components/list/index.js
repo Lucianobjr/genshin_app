@@ -41,7 +41,6 @@ export function List({ data }) {
 
   function handleNavigate() {
     navigation.navigate("Details", { data: genshindb.characters(`${data}`) });
-    console.log(genshindb.characters(`${data}`));
   }
 
   return (

@@ -55,7 +55,7 @@ export default function Details() {
   }
 
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
       <TouchableOpacity style={styles.buttomBack} onPress={handleBack}>
         <Ionicons name="arrow-back" size={28} color="#FFF3CC" />
         <Text style={styles.textBack}>Character details</Text>
